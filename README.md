@@ -20,9 +20,7 @@ For an easy installation experience, just Clone the Secure-Password-Generator re
 
 To use this application, just open in the browser, click on the "Generate Password" button and answer the automatically generated questions to specify the length and characters to be included in your password.
 
-    ```md
-    ![alt text](Assets/Images/SecurePwGenerator.png)
-    ```
+![SecurePwGenerator](https://user-images.githubusercontent.com/94599271/161434279-be4e6c73-24e5-4000-8cb2-ea86142b716f.png)
 
 ## Technologies
 
@@ -34,3 +32,4 @@ To use this application, just open in the browser, click on the "Generate Passwo
 
 ## Link
 
+ https://mayrarivaslara.github.io/Secure-Password-Generator/
