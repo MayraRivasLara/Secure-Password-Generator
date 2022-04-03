@@ -5,22 +5,19 @@ const generateBtn = document.querySelector("#generate");
  generateBtn.addEventListener("click", writePassword);
 
 
- // creating arrays
+ // creating arrays - possible choices.
  
 const lowerCases = ["a", "b,", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 const upperCases = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
 const numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 const symbols = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "=", "+", "-", "}", "}", "[", "]", "|", ":", ";", "'", "<", ">", ",", ".", "'", "?"];
 
+// when user clicks button to generate a pw, sees prompts for password criteria.
 let pwLength = "";
 let confirmLowerCase;
 let confirmUpperCase;
 let confirmNumbers;
 let confirmSpecialCharacters;
-
-// const pwTxtArea = document.getElementById("pw-textArea");
-
-// when user clicks button to generate a pw, sees prompts for password criteria
 
 // Prompts/ Ask user to determine length and characters to include in the password
 
